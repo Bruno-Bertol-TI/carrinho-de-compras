@@ -23,6 +23,8 @@ function adicionar() {
             minimumFractionDigits: 2,
             maximumFractionDigits: 2 
          })}`;
+    } else {
+        alert('Para adicionar itens ao carrinho deve ser informada a quantidade de itens que deseja');
     }
 }
 
